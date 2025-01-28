@@ -7,25 +7,50 @@
 </head>
 <body>
     
-<nav>
-    <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="projects.html">My Projects</li>
-        <li><a href="contact.html">Contect</a></li>
-    </ul>
-</nav>
-<h1>Contact Me</h1>
-<form>
-    <label for="name">Name:</label><br>
-    <input type="text" id="name" name="name"><br><br>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="projects.html">My Projects</li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="resume.html">Resume</a></li>
+        </ul>
+    </nav>
+    
+    <h1>Contact Me</h1>
+    <form>
+        <fieldset>
+            <legend>Contact Information</legend>
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" placeholder="Your Name"><br><br>
 
-    <label for="email">Email:</label><br>
-    <input type="email" id="email" name="email"><br><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" placeholder="Your Email"><br><br>
 
-    <label for="message">Message:</label><br>
-    <textarea id="message" name="message"></textarea><br>
+            <label for="phone-number">Phone Number:</label><br>
+            <input type="tel" id="phone-number" name="phone-number" placeholder="Your Phone Number"><br><br>
+        </fieldset>
 
-    <button type="submit>Send</button>
-</form>
+        <fieldset>
+            <legend>Message</legend>
+            <label for="subject">Subject:</label><br>
+            <input type="text" id="subject" name="subject" placeholder="Message Subject"><br><br>
+
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" placeholder="Your Message"></textarea><br><br>
+        </fieldset>
+
+        <button type="submit">Send</button>
+    </form>
+
+    <footer>
+        <p>&copy; 2025 Logan Monday. All rights reserved.</p>
+
+        <h2>Connect With Me</h2>
+        <ul>
+            <li><a href="https://www.linkedin.com/in/loganmonday" target="_blank">Connect with me on LinkedIn.</a></li>
+            <li><a href="https://stackoverflow.com/users/26329051/logan-monday" target="_blank">See my Stack Overflow activity.</a></li>
+        </ul>
+    </footer>
+
 </body>
 </html>
